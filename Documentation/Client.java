@@ -5,7 +5,7 @@ public class Client {
         //normie doc
         String publicInfo = "something something public";
         Document normDoc = new NormalDoc(publicInfo);
-        System.out.println("Normal document:\n" + normDoc.buildDoc());
+        System.out.println("Normal document:"+"\n" + normDoc.buildDoc());
 
         //conf doc
         String sensitiveInfo = "Lemuen my beloved bankrupt information 111";
